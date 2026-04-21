@@ -17,20 +17,29 @@
     "clickToExplore": "Klik for at udforske"
   },
   "providers": {
-    "title": "Vælg mellem",
-    "subtitle": "mange AI udbydere",
-    "description": "Undgå at blive fanget i et enkelt økosystem - skift mellem udbydere med din chathistorik og dine dokumenter intakte"
+    "title": "Digital suverænitet,",
+    "subtitle": "trin for trin",
+    "description": "OpenComp bygger praktiske, åbne løsninger, der hjælper organisationer med at genvinde kontrollen over kommunikation, samarbejde og infrastruktur."
   },
   "diagram": {
     "title": "Vores",
     "subtitle": "Tilgang",
     "compass":{
-      "title": "OpenComp",
-      "description":"OpenComp findes inden for dit eget lokale netværk, men det kan også oprette forbindelse til internettet for at få adgang til de nyeste modeller fra udbydere som ChatGPT, Claude eller Gemini."
+      "title": "Hvad er næste skridt",
+      "description":"Morpheus er kun første skridt. OpenComp bygger en bredere roadmap for digital suverænitet med åbne sociale platforme, cloud-samarbejde og gennemsigtige, langsigtede partnerskaber."
     },
     "polaris":{
       "title": "Morpheus",
-      "description":"Morpheus hjælper organisationer med at tage kontrol over deres kommunikation ved at skifte til åbne protokoller som Matrix. Fri dig fra lukkede systemer som MS Teams og Zoom."
+      "description":"Morpheus hjælper organisationer med at migrere fra lukkede værktøjer som MS Teams og Zoom til Matrix med fuldt administreret drift, enkel administration og pålidelige backups."
+    },
+    "roadmap": {
+      "heading": "Bygget til den lange bane",
+      "items": {
+        "oss": "Open source først: vi bidrager upstream og gør vores arbejde revisionsvenligt",
+        "mastodon": "Decentral social infrastruktur, inkl. administrerede Mastodon-installationer",
+        "opencloud": "Suverænt filsamarbejde med OpenCloud / Nextcloud-lignende tjenester",
+        "transparency": "Gennemsigtig drift og tydelig kundekommunikation hele vejen"
+      }
     },
     "description": ""
   },
@@ -44,36 +53,32 @@
         "description": "Dine data forbliver under din kontrol. Ingen tredjeparter kan få adgang til din kommunikation uden din udtrykkelige tilladelse."
       },
       "bestOfBoth": {
-        "title": "Protokol-uafhængighed",
-        "description": "Skift mellem kommunikationsprotokoller og udbydere. Din organisation bør ikke blive låst fast til en enkelt leverandør."
+        "title": "Åbne standarder først",
+        "description": "Vi prioriterer åbne protokoller som Matrix, så jeres kommunikationsstack forbliver flytbar og fremtidssikret."
       },
       "ownership": {
         "title": "Leverandør-uafhængighed",
-        "description": "Byg systemer, der forbliver operationelle, selv når leverandører ændrer vilkår, hæver priser eller forlader markeder."
+        "description": "Byg systemer, der forbliver operationelle, selv når leverandører ændrer vilkår, hæver priser eller forlader markedet."
       },
       "openSource": {
         "title": "Fuld Gennemsigtighed",
-        "description": "Open source kodebase, du selv kan auditere. Verificer sikkerheds- og privatlivspåstandene selv."
-      },
-      "offline": {
-        "title": "Offline-kapacitet",
-        "description": "Fungerer uden internetforbindelse. Perfekt til følsom kommunikation eller når modstandsdygtighed er en prioritet."
+        "description": "Open source-komponenter og tydelig arkitektur gør det muligt at verificere sikkerheds- og privatlivspåstande."
       },
       "customizable": {
-        "title": "Fuldt Tilpasningsvenlig",
-        "description": "Tilpas OpenComp til din organisations specifikke behov med tilpassede integrationer, temaer og arbejdsgange."
+        "title": "Administreret, men ikke låst",
+        "description": "Få bekvemmeligheden ved administrerede tjenester uden at miste friheden til at udvikle jeres stack."
       },
       "authentication": {
         "title": "Fleksibel Godkendelse",
         "description": "Forbind med din eksisterende identitetsudbyder - Microsoft Entra, Google Workspace, SAML eller din egen mapper."
       },
       "documents": {
-        "title": "Dokumentkontrol",
-        "description": "Bevar fuld kontrol over dine dokumenter og filer. Ingen leverandør-lock-in for din organisations viden."
+        "title": "Backups & gendannelse",
+        "description": "Automatiske backups og driftsklar gendannelse er indbygget i Morpheus fra dag ét."
       },
       "characters": {
-        "title": "Audit Venlig",
-        "description": "Hver interaktion kan logges og auditeres. Bevar overholdelse, samtidig med at operationel effektivitet bevares."
+        "title": "Gennemsigtigt partnerskab",
+        "description": "Vi arbejder åbent med kunder, forklarer afvejninger tydeligt og bygger tillid gennem gennemsigtighed."
       }
     }
   },

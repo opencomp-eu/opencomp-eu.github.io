@@ -17,20 +17,29 @@
     "clickToExplore": "Click to explore the demo"
   },
   "providers": {
-    "title": "Choose between",
-    "subtitle": "many AI providers",
-    "description": "Avoid getting trapped in a single eco-system - switch between providers with your chat history and documents intact"
+    "title": "Digital sovereignty,",
+    "subtitle": "step by step",
+    "description": "OpenComp builds practical, open solutions that help organisations regain control over communication, collaboration, and infrastructure."
   },
   "diagram": {
     "title": "Our",
     "subtitle": "Approach",
     "compass":{
-      "title": "OpenComp",
-      "description":"OpenComp exists within your own local network, however it can also connect to the internet to access the latest models from providers like ChatGPT, Claude, or Gemini. This allows you to use OpenComp offline when privacy is a priority, or connect to the internet when you need the latest models."
+      "title": "What's Next",
+      "description":"Morpheus is only the first step. OpenComp is building a broader digital sovereignty roadmap around open social media, cloud collaboration, and transparent long-term partnerships."
     },
     "polaris":{
       "title": "Morpheus",
-      "description":"Morpheus helps organisations take control of their communication by switching to open protocols like Matrix. Break free from closed systems like MS Teams and Zoom."
+      "description":"Morpheus helps organisations migrate from closed tools like MS Teams and Zoom to Matrix, with fully managed hosting, straightforward administration, and reliable backups."
+    },
+    "roadmap": {
+      "heading": "Building for the Long Term",
+      "items": {
+        "oss": "Open-source first: we contribute upstream and keep our work auditable",
+        "mastodon": "Decentralized social infrastructure, including managed Mastodon deployments",
+        "opencloud": "Sovereign file collaboration with OpenCloud / Nextcloud-style services",
+        "transparency": "Transparent operations and customer communication at every step"
+      }
     },
     "description": ""
   },
@@ -44,36 +53,32 @@
         "description": "Your data stays under your control. No third parties can access your communications without your explicit permission."
       },
       "bestOfBoth": {
-        "title": "Protocol Independence",
-        "description": "Switch between communication protocols and providers. Your organization should not be locked into any single vendor."
+        "title": "Open Standards First",
+        "description": "We prioritize open protocols like Matrix so your communication stack stays portable and future-proof."
       },
       "ownership": {
         "title": "Vendor Independence",
-        "description": "Build systems that remain operable even as vendors change their terms, raise prices, or exit markets. Your infrastructure should adapt to you, not the other way around."
+        "description": "Build systems that remain operable even as vendors change terms, raise prices, or leave markets."
       },
       "openSource": {
         "title": "Full Transparency",
-        "description": "Open source codebase you can audit yourself. Verify the security and privacy claims - no black boxes."
-      },
-      "offline": {
-        "title": "Offline Capable",
-        "description": "Works without an internet connection. Perfect for sensitive communications or when resilience is a priority."
+        "description": "Open-source components and clear architecture let you verify security and privacy claims."
       },
       "customizable": {
-        "title": "Fully Customizable",
-        "description": "Adapt OpenComp to your organization's specific needs with custom integrations, themes, and workflows."
+        "title": "Managed, Not Locked",
+        "description": "Get the convenience of managed services while keeping the freedom to adapt and evolve your stack."
       },
       "authentication": {
-        "title": "Flexible Authentication",
+        "title": "Identity Integration",
         "description": "Connect with your existing identity provider - Microsoft Entra, Google Workspace, SAML, or your own directory."
       },
       "documents": {
-        "title": "Document Control",
-        "description": "Keep full control over your documents and files. No vendor lock-in for your organization's knowledge."
+        "title": "Backups & Recovery",
+        "description": "Automated backups and recovery-ready operations are built into Morpheus from day one."
       },
       "characters": {
-        "title": "Audit Friendly",
-        "description": "Every interaction can be logged and audited. Maintain compliance while preserving operational efficiency."
+        "title": "Transparent Partnership",
+        "description": "We work openly with customers, explain trade-offs clearly, and build trust through visibility."
       }
     }
   },

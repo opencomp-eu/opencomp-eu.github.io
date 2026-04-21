@@ -1,23 +1,19 @@
 "use client";
 
-import { useState } from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Globe, Server, Shield, Lock, Eye, Wifi, Settings, FileText, Users, KeyRound } from "lucide-react";
+import { Github, Linkedin, Mail, Globe, Server, Shield, Lock, Eye, Settings, FileText, Users, KeyRound } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import ContactForm from "@/components/contact-form";
-import FeatureCard from "@/components/feature-card";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { useTranslation } from "react-i18next";
-import { Trans } from 'react-i18next';
 
 const featureIcons: Record<string, React.ElementType> = {
   Shield: Shield,
   Globe: Globe,
   Lock: Lock,
   Eye: Eye,
-  Wifi: Wifi,
   Settings: Settings,
   KeyRound: KeyRound,
   FileText: FileText,
@@ -50,10 +46,6 @@ export default function Home() {
     {
       key: "openSource",
       icon: "Eye",
-    },
-    {
-      key: "offline",
-      icon: "Wifi",
     },
     {
       key: "customizable",
@@ -195,13 +187,7 @@ export default function Home() {
                   {t(`features.cards.${feature.key}.title`)}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  {feature.key === "bestOfBoth" ? (
-                    <Trans i18nKey={`features.cards.${feature.key}.description`} components={{ 1: <span className="text-primary font-medium" />, 2: <span className="text-primary font-medium" />, 3: <span className="text-primary font-medium" /> }} />
-                  ) : feature.key === "authentication" ? (
-                    <Trans i18nKey={`features.cards.${feature.key}.description`} components={{ 1: <span className="text-primary font-medium" />, 2: <span className="text-primary font-medium" /> }} />
-                  ) : (
-                    t(`features.cards.${feature.key}.description`)
-                  )}
+                  {t(`features.cards.${feature.key}.description`)}
                 </p>
               </motion.div>
             );
@@ -280,7 +266,7 @@ export default function Home() {
           </div>
         </motion.div>
 
-        {/* OpenComp Platform */}
+        {/* OpenComp Roadmap */}
         <motion.div
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -292,7 +278,7 @@ export default function Home() {
             <div className="w-full lg:w-1/2">
               <div className="bg-gradient-to-br from-blue-400 to-blue-600 dark:from-blue-600 dark:to-blue-900 rounded-2xl p-8 text-white">
                 <Shield className="h-16 w-16 mb-4" />
-                <h3 className="text-3xl font-bold mb-4">OpenComp Platform</h3>
+                <h3 className="text-3xl font-bold mb-4">{t("diagram.compass.title")}</h3>
                 <p className="text-lg opacity-90">
                   {t("diagram.compass.description")}
                 </p>
@@ -300,24 +286,24 @@ export default function Home() {
             </div>
             <div className="w-full lg:w-1/2">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Build for the Long Term
+                {t("diagram.roadmap.heading")}
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <Eye className="h-6 w-6 text-blue-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 dark:text-gray-300">Open source - audit, verify, and customize to your needs</span>
+                  <span className="text-gray-700 dark:text-gray-300">{t("diagram.roadmap.items.oss")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Lock className="h-6 w-6 text-blue-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 dark:text-gray-300">Your data stays where you want it</span>
+                  <span className="text-gray-700 dark:text-gray-300">{t("diagram.roadmap.items.mastodon")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Settings className="h-6 w-6 text-blue-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 dark:text-gray-300">Works with your existing infrastructure</span>
+                  <span className="text-gray-700 dark:text-gray-300">{t("diagram.roadmap.items.opencloud")}</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Wifi className="h-6 w-6 text-blue-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 dark:text-gray-300">Can operate fully offline when needed</span>
+                  <Users className="h-6 w-6 text-blue-500 mt-1 flex-shrink-0" />
+                  <span className="text-gray-700 dark:text-gray-300">{t("diagram.roadmap.items.transparency")}</span>
                 </li>
               </ul>
             </div>
