@@ -105,7 +105,7 @@ export default function Home() {
                 {t("hero.tryDemo")}
               </Button>
               <Button
-                onClick={() => window.open("https://github.com/compass-ai-chat", "_blank")}
+                onClick={() => window.open("https://github.com/opencomp-eu", "_blank")}
                 size="lg"
                 variant="outline"
                 className="border-emerald-500 text-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-950"
@@ -349,7 +349,7 @@ export default function Home() {
               <div
                 onClick={() =>
                   window.open(
-                    "https://github.com/compass-ai-chat",
+                    "https://github.com/opencomp-eu",
                     "_blank",
                   )
                 }
@@ -363,7 +363,7 @@ export default function Home() {
                     {t("contact.github")}
                   </h3>
                   <p className="text-gray-700 dark:text-gray-300 break-words">
-                    github.com/compass-ai-chat
+                    github.com/opencomp-eu
                   </p>
                 </div>
               </div>

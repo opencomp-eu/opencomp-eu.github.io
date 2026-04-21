@@ -18,7 +18,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="https://github.com/compass-ai-chat"
+                href="https://github.com/opencomp-eu"
                 className="text-gray-500 dark:text-gray-300 hover:text-emerald-500 transition-colors"
                 target="_blank"
               >
