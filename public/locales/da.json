@@ -1,86 +1,102 @@
 {
   "hero": {
-    "title": "Din AI-assistent,",
-    "subtitle_1": "Under",
-    "subtitle_2": "din",
-    "subtitle_3": "Kontrol",
-    "description": "Compass er en open-source AI-chatapplikation, der giver dig kontrol over privatliv og hastighed. Kør helt offline, når følsomhed er en prioritet, eller forbind til en af mange udbydere, såsom ChatGPT, når du har brug for de nyeste modeller.",
-    "tryDemo": "Prøv Demoen",
+    "title": "Din Organisations",
+    "subtitle_1": "Digitale",
+    "subtitle_2": "Uafhængighed",
+    "subtitle_3": "Begynder Her",
+    "description": "OpenComp hjælper europæiske organisationer med at opnå ægte digital suverænitet. Vi bygger systemer, der forbliver forståelige, revisionsvenlige og operationelle over tid - selv når leverandører, reguleringer og geopolitiske forhold ændrer sig.",
+    "tryDemo": "Lær Mere",
     "downloadNow": "Download Nu"
   },
   "demo": {
-    "title": "Prøv Compass",
-    "subtitle": "selv",
-    "demoTitle": "Compass Demo",
-    "clickToShowDemo": "Klik for at vise demoen",
+    "title": "Oplev OpenComp",
+    "subtitle": "I Handling",
+    "demoTitle": "OpenComp Demo",
+    "clickToShowDemo": "Klik for at vise demo",
     "loadDemo": "Indlæs Demo",
     "clickToExplore": "Klik for at udforske"
   },
   "providers": {
-    "title": "Vælg mellem",
-    "subtitle": "mange AI udbydere",
-    "description": "Undgå at blive fanget i et enkelt økosystem - skift mellem udbydere med din chathistorik og dine dokumenter intakte"
+    "title": "Digital suverænitet,",
+    "subtitle": "trin for trin",
+    "description": "OpenComp bygger praktiske, åbne løsninger, der hjælper organisationer med at genvinde kontrollen over kommunikation, samarbejde og infrastruktur."
   },
   "diagram": {
-    "title": "Hvordan",
-    "subtitle": "fungerer det",
+    "title": "Vores",
+    "subtitle": "Tilgang",
     "compass":{
-      "title": "Compass",
-      "description":"Compass findes inden for dit eget lokale netværk, men det kan også oprette forbindelse til internettet for at få adgang til de nyeste modeller fra udbydere som ChatGPT, Claude eller Gemini. Det giver dig mulighed for at bruge Compass offline, når privatlivets fred er en prioritet, eller oprette forbindelse til internettet, når du har brug for de nyeste modeller."
+      "title": "Planer for fremtiden",
+      "description":"Morpheus er det første skridt. OpenComp bygger en bredere roadmap for digital suverænitet med åbne sociale platforme, cloud-samarbejde og gennemsigtige, langsigtede partnerskaber."
     },
     "polaris":{
-      "title": "Polaris",
-      "description":"Polaris giver dig mulighed for at samle forskellige udbydere, herunder din lokale AI, på ét sted og dele det med flere compass-brugere. Det forenkler både opsætningsprocessen og giver dig mulighed for at kontrollere brugen ét sted."
+      "title": "Morpheus 🛠️ under konstruktion",
+      "description":"Morpheus vil hjælpe organisationer med at migrere fra lukkede værktøjer som MS Teams og Zoom til Matrix med fuldt administreret drift, enkel administration og pålidelige backups."
     },
-    "description": ""
+    "roadmap": {
+      "heading": "Bygget til den lange bane",
+      "items": {
+        "oss": "Open source først: vi bidrager upstream og gør vores arbejde revisionsvenligt",
+        "mastodon": "Decentral social infrastruktur, inkl. administrerede Mastodon-installationer",
+        "opencloud": "Suverænt filsamarbejde med OpenCloud / Nextcloud-lignende tjenester",
+        "transparency": "Gennemsigtig drift og tydelig kundekommunikation hele vejen"
+      }
+    },
+    "description": "",
+    "morpheus": {
+      "title": "Tag kontrol over din kommunikation",
+      "survey": "Hjælp os med at prioritere funktioner",
+      "items": {
+        "switch": "Skift fra MS Teams og Zoom til den åbne Matrix-protokol",
+        "encryption": "End-to-end kryptering som standard",
+        "hosting": "Vælg din egen server eller hostingudbyder",
+        "migration": "Nem migrering fra eksisterende værktøjer"
+      },
+      "learnMore": "Lær mere"
+    }
   },
   "features": {
-    "title": "Hvorfor vælge",
-    "subtitle": "Compass",
+    "title": "Værdierne af",
+    "subtitle": "OpenComp",
     "description": "Bygget med kerneværdier om suverænitet, privatliv og kontrol",
     "cards": {
       "privacy": {
-        "title": "Privathedsorienteret",
-        "description": "Compass scanner for følsomt indhold og advarer dig før du sender det. Ingen data behøver nogensinde at blive sendt til eksterne servere uden din tilladelse."
+        "title": "Datasuverænitet",
+        "description": "Dine data forbliver under din kontrol. Ingen tredjeparter kan få adgang til din kommunikation uden din udtrykkelige tilladelse."
       },
       "bestOfBoth": {
-        "title": "Det Bedste fra Begge Verdener",
-        "description": "Opret forbindelse til udbydere som <1>ChatGPT</1>, <2>Claude</2> eller <3>Gemini</3> for banebrydende modeller, eller forbliv offline til følsomme opgaver."
+        "title": "Åbne standarder først",
+        "description": "Vi prioriterer åbne protokoller som Matrix, så jeres kommunikationsstack forbliver flytbar og fremtidssikret."
       },
       "ownership": {
-        "title": "Ejerskab og Portabilitet",
-        "description": "Du ejer dine data og samtaler, så du kan bruge dem på tværs af forskellige udbydere og modeller. Eksporter, slet eller administrer dem, som du vil."
+        "title": "Leverandør-uafhængighed",
+        "description": "Byg systemer, der forbliver operationelle, selv når leverandører ændrer vilkår, hæver priser eller forlader markedet."
       },
       "openSource": {
-        "title": "Open Source",
-        "description": "Fuldt gennemsigtig kodebase. Du kan verificere sikkerheds- og privatlivspåstandene selv."
-      },
-      "offline": {
-        "title": "Offline-kapacitet",
-        "description": "Fungerer uden internetforbindelse. Perfekt til rejser eller når privatlivet er en prioritet."
+        "title": "Fuld Gennemsigtighed",
+        "description": "Open source-komponenter og tydelig arkitektur gør det muligt at verificere sikkerheds- og privatlivspåstande."
       },
       "customizable": {
-        "title": "Tilpasningsvenlig",
-        "description": "Tilpas Compass til dine specifikke behov med temaer, karakterer og udbydere."
+        "title": "Administreret, men ikke låst",
+        "description": "Få bekvemmeligheden ved administrerede tjenester uden at miste friheden til at udvikle jeres stack."
       },
       "authentication": {
-        "title": "Vælg hvordan du authenticerer dig",
-        "description": "Polaris kan bruges med både <1>Microsoft</1> og <2>Google</2> konti, samt med en custom email og password eller blot en API-nøgle."
+        "title": "Fleksibel Godkendelse",
+        "description": "Forbind med din eksisterende identitetsudbyder - Microsoft Entra, Google Workspace, SAML eller din egen mapper."
       },
       "documents": {
-        "title": "Dokumenter",
-        "description": "Compass kan bruges med dokumenter, såsom PDF'er. Dette giver dig mulighed for at bruge Compass til at chatte med dine dokumenter, samt med internettet."
+        "title": "Backups & gendannelse",
+        "description": "Automatiske backups og driftsklar gendannelse er indbygget i Morpheus fra dag ét."
       },
       "characters": {
-        "title": "Chat med karakterer",
-        "description": "Dan dig flere perspektiver ved at definere forskellige karakterer for forskellige opgaver. Kommer med 5 foruddefinerede karakterer."
+        "title": "Gennemsigtigt partnerskab",
+        "description": "Vi arbejder åbent med kunder, forklarer afvejninger tydeligt og bygger tillid gennem gennemsigtighed."
       }
     }
   },
   "contact": {
     "title": "Kom i",
     "subtitle": "Kontakt",
-    "description": "Interesseret i Compass? Tag fat på os gennem en af disse kanaler.",
+    "description": "Interesseret i digital suverænitet for din organisation? Tag fat på os gennem en af disse kanaler.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -94,7 +110,7 @@
       "message": "Besked",
       "send": "Send Email",
       "sending": "Sender...",
-      "success": "Tak! Din email klient åbener nu.",
+      "success": "Tak! Din email klient åbner nu.",
       "namePlaceholder": "Dit navn",
       "emailPlaceholder": "din.email@eksempel.com",
       "messagePlaceholder": "Din besked...",
@@ -105,21 +121,26 @@
     }
   },
   "nav": {
-    "demo": "Demo",
-    "features": "Funktioner",
+    "demo": "Mission",
+    "features": "Hvorfor Os",
     "contact": "Kontakt",
-    "download": "Download",
-    "diagram": "Diagram"
+    "download": "Produkter",
+    "diagram": "Tilgang"
   },
   "download": {
-    "title": "Download",
-    "subtitle": "Compass",
-    "description": "Kom i gang med Compass på Windows eller Linux (se udgivelsesnoter for flere detaljer)",
-    "downloadFor": "Download til",
-    "preferDocker": "Foretrækker du Docker? Se vores udgivelsesnoter"
+    "title": "Vores",
+    "subtitle": "Produkter",
+    "description": "Udforsk vores platforme for at opnå digital suverænitet",
+    "downloadFor": "Lær om",
+    "preferDocker": "Se på GitHub"
+  },
+  "roadmap": {
+    "title": "Vores",
+    "subtitle": "Roadmap",
+    "description": "Udforsk vores planer for at opnå digital suverænitet"
   },
   "footer": {
-    "description": "En open-source, lokal AI-chatapplikation med fokus på privatliv, decentralisering og ægte dataejerskab.",
+    "description": "Hjælper europæiske organisationer med at opnå digital suverænitet gennem åbne, auditerbare og kontrollerbare systemer.",
     "links": {
       "title": "Links"
     },
@@ -130,6 +151,6 @@
       "privacy": "Privatlivspolitik",
       "terms": "Servicevilkår"
     },
-    "copyright": "© {{year}} Compass AI. Alle rettigheder forbeholdes."
+    "copyright": "© {{year}} OpenComp. Alle rettigheder forbeholdes."
   }
 }

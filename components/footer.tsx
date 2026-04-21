@@ -11,28 +11,28 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold text-emerald-500 mb-4">
-              Compass
+              OpenComp
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4 max-w-md">
               {t("footer.description")}
             </p>
             <div className="flex space-x-4">
               <Link
-                href="https://github.com/compass-ai-chat/compass#user-content-welcome-to-compass-"
+                href="https://github.com/opencomp-eu"
                 className="text-gray-500 dark:text-gray-300 hover:text-emerald-500 transition-colors"
                 target="_blank"
               >
                 <Github className="h-5 w-5" />
               </Link>
               <Link
-                href="https://www.linkedin.com/company/compass-ai-chat"
+                href="https://www.linkedin.com/company/opencomp"
                 className="text-gray-500 dark:text-gray-300 hover:text-emerald-500 transition-colors"
                 target="_blank"
               >
                 <Linkedin className="h-5 w-5" />
               </Link>
               <Link
-                href="mailto:info@compass-ai.chat"
+                href="mailto:info@opencomp.eu"
                 className="text-gray-500 dark:text-gray-300 hover:text-emerald-500 transition-colors"
               >
                 <Mail className="h-5 w-5" />
@@ -47,7 +47,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="#features"
                   className="text-gray-600 dark:text-gray-300 hover:text-emerald-500 transition-colors"
                 >
                   {t("nav.features")}
@@ -55,15 +55,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
-                  className="text-gray-600 dark:text-gray-300 hover:text-emerald-500 transition-colors"
-                >
-                  {t("nav.demo")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
+                  href="#diagram"
                   className="text-gray-600 dark:text-gray-300 hover:text-emerald-500 transition-colors"
                 >
                   {t("nav.download")}
@@ -71,7 +63,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="#contact"
                   className="text-gray-600 dark:text-gray-300 hover:text-emerald-500 transition-colors"
                 >
                   {t("nav.contact")}
@@ -81,29 +73,6 @@ export default function Footer() {
           </div>
 
           <div>
-            {/* <h4 className="font-semibold text-gray-900 dark:text-white mb-4">{t('footer.resources.title')}</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-300 hover:text-emerald-500 transition-colors">
-                  {t('footer.resources.documentation')}
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-300 hover:text-emerald-500 transition-colors">
-                  {t('footer.resources.repository')}
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-300 hover:text-emerald-500 transition-colors">
-                  {t('footer.resources.privacy')}
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 dark:text-gray-300 hover:text-emerald-500 transition-colors">
-                  {t('footer.resources.terms')}
-                </Link>
-              </li>
-            </ul> */}
           </div>
         </div>
 

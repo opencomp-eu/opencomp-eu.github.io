@@ -1,86 +1,101 @@
 {
   "hero": {
-    "title": "Your AI Companion,",
-    "subtitle_1": "Under",
-    "subtitle_2": "your",
-    "subtitle_3": "Control",
-    "description": "Compass is an open-source AI chat application that gives you control of privacy and speed. Run entirely offline when privacy is a priority or connect to one of many providers, such as ChatGPT, when you need the latest models.",
-    "tryDemo": "Try Demo",
+    "title": "Your Organization's",
+    "subtitle_1": "Digital",
+    "subtitle_2": "Independence",
+    "subtitle_3": "Starts Here",
+    "description": "OpenComp helps European organizations achieve true digital sovereignty. We build systems that remain understandable, auditable and operable over time - even as vendors, regulations and geopolitical conditions change.",
+    "tryDemo": "Learn More",
     "downloadNow": "Download Now"
   },
   "demo": {
-    "title": "Experience Compass",
+    "title": "Experience OpenComp",
     "subtitle": "In Action",
-    "demoTitle": "Compass Demo",
+    "demoTitle": "OpenComp Demo",
     "clickToShowDemo": "Click to show demo",
     "loadDemo": "Load Demo",
     "clickToExplore": "Click to explore the demo"
   },
   "providers": {
-    "title": "Choose between",
-    "subtitle": "many AI providers",
-    "description": "Avoid getting trapped in a single eco-system - switch between providers with your chat history and documents intact"
+    "title": "Digital sovereignty,",
+    "subtitle": "step by step",
+    "description": "OpenComp builds practical, open solutions that help organisations regain control over communication, collaboration, and infrastructure."
   },
   "diagram": {
-    "title": "How does it",
-    "subtitle": "Work",
+    "title": "Our",
+    "subtitle": "Approach",
     "compass":{
-      "title": "Compass",
-      "description":"Compass exists within your own local network, however it can also connect to the internet to access the latest models from providers like ChatGPT, Claude, or Gemini. This allows you to use Compass offline when privacy is a priority, or connect to the internet when you need the latest models."
+      "title": "What's Next",
+      "description":"Morpheus is the first step. OpenComp is building a broader digital sovereignty roadmap around open social media, cloud collaboration, and transparent long-term partnerships."
     },
     "polaris":{
-      "title": "Polaris",
-      "description":"Polaris allows you to bundle up different providers, including your local AI, in one place and share it amongst multiple compass users. This both simplifies the setup process and allows you to control usage in one place."
+      "title": "Morpheus 🛠️ under construction",
+      "description":"Morpheus will help organisations migrate from closed tools like MS Teams and Zoom to Matrix, with fully managed hosting, straightforward administration, and reliable backups."
     },
-    "description": ""
+    "roadmap": {
+      "heading": "Building for the Long Term",
+      "items": {
+        "oss": "Open-source first: we contribute upstream and keep our work auditable",
+        "mastodon": "Decentralized social infrastructure, including managed Mastodon deployments",
+        "opencloud": "Sovereign file collaboration with OpenCloud / Nextcloud-style services",
+        "transparency": "Transparent operations and customer communication at every step"
+      }
+    },
+    "description": "",
+    "morpheus": {
+      "title": "Take control of your communication",
+      "items": {
+        "switch": "Switch from MS Teams and Zoom to the open Matrix protocol",
+        "encryption": "End-to-end encryption by default",
+        "hosting": "Choose your own server or hosting provider",
+        "migration": "Seamless migration from existing tools"
+      },
+      "learnMore": "Learn More"
+    }
   },
   "features": {
-    "title": "Why Choose",
-    "subtitle": "Compass",
+    "title": "Values of",
+    "subtitle": "OpenComp",
     "description": "Built with core values of sovereignty, privacy, and control",
     "cards": {
       "privacy": {
-        "title": "Privacy Oriented",
-        "description": "Compass scans for sensitive content and warns you before you send it. No data ever needs to be sent to external servers without your explicit permission."
+        "title": "Data Sovereignty",
+        "description": "Your data stays under your control. No third parties can access your communications without your explicit permission."
       },
       "bestOfBoth": {
-        "title": "Best of Both Worlds",
-        "description": "Connect to providers like <1>ChatGPT</1>, <2>Claude</2> or <3>Gemini</3> for cutting-edge models, or stay offline for sensitive tasks."
+        "title": "Open Standards First",
+        "description": "We prioritize open protocols like Matrix so your communication stack stays portable and future-proof."
       },
       "ownership": {
-        "title": "Ownership and Portability",
-        "description": "You own your data and conversations, allowing you to use them across different providers and models. Export, delete, or manage them as you please."
+        "title": "Vendor Independence",
+        "description": "Build systems that remain operable even as vendors change terms, raise prices, or leave markets."
       },
       "openSource": {
-        "title": "Open Source",
-        "description": "Fully transparent codebase. Verify the security and privacy claims yourself."
-      },
-      "offline": {
-        "title": "Offline Capable",
-        "description": "Works without an internet connection. Perfect for travel or when privacy is a priority."
+        "title": "Full Transparency",
+        "description": "Open-source components and clear architecture let you verify security and privacy claims."
       },
       "customizable": {
-        "title": "Customizable",
-        "description": "Adapt Compass to your specific needs with providers, themes, character profiles, and more."
+        "title": "Managed, Not Locked",
+        "description": "Get the convenience of managed services while keeping the freedom to adapt and evolve your stack."
       },
       "authentication": {
-        "title": "Choose how you authenticate",
-        "description": "Polaris can be used with both <1>Microsoft</1> and <2>Google</2> accounts, as well as with a custom email and password or simply an API key."
+        "title": "Identity Integration",
+        "description": "Connect with your existing identity provider - Microsoft Entra, Google Workspace, SAML, or your own directory."
       },
       "documents": {
-        "title": "Documents",
-        "description": "Compass can be used with documents, such as PDFs. This allows you to use Compass to chat with your documents, as well as with the internet."
+        "title": "Backups & Recovery",
+        "description": "Automated backups and recovery-ready operations are built into Morpheus from day one."
       },
       "characters": {
-        "title": "Chat with characters",
-        "description": "Promote diversity of thought and expression by defining different characters for different tasks. Comes with 5 pre-defined characters."
+        "title": "Transparent Partnership",
+        "description": "We work openly with customers, explain trade-offs clearly, and build trust through visibility."
       }
     }
   },
   "contact": {
     "title": "Get In",
     "subtitle": "Touch",
-    "description": "Interested in Compass? Reach out through any of these channels.",
+    "description": "Interested in digital sovereignty for your organization? Reach out through any of these channels.",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -105,21 +120,26 @@
     }
   },
   "nav": {
-    "demo": "Demo",
-    "features": "Features",
+    "demo": "Mission",
+    "features": "Why Us",
     "contact": "Contact",
-    "download": "Download",
-    "diagram": "Diagram"
+    "download": "Products",
+    "diagram": "Approach"
   },
   "download": {
-    "title": "Download",
-    "subtitle": "Compass",
-    "description": "Get started with Compass on Windows or Linux (see release notes for more details)",
-    "downloadFor": "Download for",
-    "preferDocker": "Prefer Docker? Check out our Release notes"
+    "title": "Our",
+    "subtitle": "Products",
+    "description": "Explore our platforms for achieving digital sovereignty",
+    "downloadFor": "Learn about",
+    "preferDocker": "View on GitHub"
+  },
+  "roadmap": {
+    "title": "Our",
+    "subtitle": "Roadmap",
+    "description": "Explore our plans for achieving digital sovereignty"
   },
   "footer": {
-    "description": "An open-source, local AI chat application focused on privacy, decentralization, and true data ownership.",
+    "description": "Helping European organizations achieve digital sovereignty through open, auditable, and controllable systems.",
     "links": {
       "title": "Links"
     },
@@ -130,6 +150,6 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Service"
     },
-    "copyright": "© {{year}} Compass AI. All rights reserved."
+    "copyright": "© {{year}} OpenComp. All rights reserved."
   }
 }

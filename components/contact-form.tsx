@@ -30,7 +30,7 @@ export default function ContactForm() {
     setIsSubmitting(true);
 
     // Create mailto URL with form data
-    const mailtoUrl = `mailto:info@compass-ai.chat?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(`${data.message}`)}`;
+    const mailtoUrl = `mailto:info@opencomp.eu?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(`${data.message}`)}`;
 
     // Open email client
     window.location.href = mailtoUrl;

@@ -16,8 +16,8 @@ config.autoAddCss = false
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Compass - Local AI Chat App",
-  description: "An open-source AI chat application focused on privacy, decentralization, and true data ownership.",
+  title: "OpenComp - Digital Sovereignty for European Organizations",
+  description: "Helping European organizations achieve digital sovereignty through open, auditable, and controllable systems. Our first product Morpheus helps you switch to the Matrix protocol.",
     generator: 'v0.dev'
 }
 

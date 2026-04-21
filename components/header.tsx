@@ -40,34 +40,18 @@ export default function Header() {
             <img 
               className="h-8 self-center mr-2" 
               src="https://github.com/nordwestt/compass/blob/master/assets/compass.png?raw=true" 
-              alt="Compass Logo" 
+              alt="OpenComp Logo" 
             />
-              <span className="text-2xl font-bold text-emerald-500">Compass</span>
+              <span className="text-2xl font-bold text-emerald-500">OpenComp</span>
             </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-          <motion.div
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-            >
-              <a 
-                href="#demo" 
-                className="text-gray-600 hover:text-emerald-500 transition-colors cursor-pointer"
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection('demo');
-                }}
-              >
-                {t('nav.demo')}
-              </a>
-            </motion.div>
             <motion.div
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
             >
               <a 
                 href="#features" 
@@ -80,11 +64,10 @@ export default function Header() {
                 {t('nav.features')}
               </a>
             </motion.div>
-            
             <motion.div
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
             >
               <a 
                 href="#diagram" 
@@ -103,14 +86,14 @@ export default function Header() {
               transition={{ duration: 0.5, delay: 0.3 }}
             >
               <a 
-                href="#download" 
+                href="#contact" 
                 className="text-gray-600 hover:text-emerald-500 transition-colors cursor-pointer"
                 onClick={(e) => {
                   e.preventDefault();
-                  scrollToSection('download');
+                  scrollToSection('contact');
                 }}
               >
-                {t('nav.download')}
+                {t('nav.contact')}
               </a>
             </motion.div>
             <motion.div
@@ -154,16 +137,6 @@ export default function Header() {
           className="md:hidden bg-white"
         >
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-          <a
-              href="#demo"
-              className="text-gray-600 hover:text-emerald-500 transition-colors py-2 cursor-pointer"
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection('demo');
-              }}
-            >
-              {t('nav.demo')}
-            </a>
             <a
               href="#features"
               className="text-gray-600 hover:text-emerald-500 transition-colors py-2 cursor-pointer"
@@ -175,7 +148,7 @@ export default function Header() {
               {t('nav.features')}
             </a>
             <a
-              href="#contact"
+              href="#diagram"
               className="text-gray-600 hover:text-emerald-500 transition-colors py-2 cursor-pointer"
               onClick={(e) => {
                 e.preventDefault();
@@ -183,6 +156,16 @@ export default function Header() {
               }}
             >
               {t('nav.diagram')}
+            </a>
+            <a
+              href="#contact"
+              className="text-gray-600 hover:text-emerald-500 transition-colors py-2 cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('contact');
+              }}
+            >
+              {t('nav.contact')}
             </a>
             <div className="flex justify-center py-2">
               <ThemeToggle />
