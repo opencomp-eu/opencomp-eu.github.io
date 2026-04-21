@@ -29,8 +29,8 @@
       "description":"Morpheus is the first step. OpenComp is building a broader digital sovereignty roadmap around open social media, cloud collaboration, and transparent long-term partnerships."
     },
     "polaris":{
-      "title": "Morpheus",
-      "description":"Morpheus helps organisations migrate from closed tools like MS Teams and Zoom to Matrix, with fully managed hosting, straightforward administration, and reliable backups."
+      "title": "Morpheus 🛠️ under construction",
+      "description":"Morpheus will help organisations migrate from closed tools like MS Teams and Zoom to Matrix, with fully managed hosting, straightforward administration, and reliable backups."
     },
     "roadmap": {
       "heading": "Building for the Long Term",
@@ -43,7 +43,7 @@
     },
     "description": "",
     "morpheus": {
-      "title": "Take Control of Your Communication",
+      "title": "Take control of your communication",
       "items": {
         "switch": "Switch from MS Teams and Zoom to the open Matrix protocol",
         "encryption": "End-to-end encryption by default",

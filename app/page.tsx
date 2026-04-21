@@ -21,7 +21,7 @@ const featureIcons: Record<string, React.ElementType> = {
 };
 
 export default function Home() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -157,7 +157,7 @@ export default function Home() {
             <div className="w-full lg:w-1/2">
               <div className="bg-gradient-to-br from-emerald-400 to-emerald-600 dark:from-emerald-600 dark:to-emerald-900 rounded-2xl p-8 text-white">
                 <Server className="h-16 w-16 mb-4" />
-                <h3 className="text-3xl font-bold mb-4">Morpheus</h3>
+                <h3 className="text-3xl font-bold mb-4">{t("diagram.polaris.title")}</h3>
                 <p className="text-lg opacity-90">
                   {t("diagram.polaris.description")}
                 </p>
@@ -185,7 +185,7 @@ export default function Home() {
                   <span className="text-gray-700 dark:text-gray-300">{t("diagram.morpheus.items.migration")}</span>
                 </li>
               </ul>
-              <div className="mt-6">
+              <div className="mt-6 flex items-center">
                 <Button
                   size="lg"
                   className="bg-emerald-500 hover:bg-emerald-600 text-white"
@@ -193,6 +193,21 @@ export default function Home() {
                 >
                   {t("diagram.morpheus.learnMore")}
                 </Button>
+                {i18n.language === "da" && (
+                <div className="mb-6 mx-2 p-4 bg-emerald-50 dark:bg-emerald-900/30 border border-emerald-200 dark:border-emerald-800 rounded-xl">
+                  <p className="text-emerald-800 dark:text-emerald-200 mb-3 font-medium">
+                    {t("diagram.morpheus.survey")}
+                  </p>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="border-emerald-500 text-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-950"
+                    onClick={() => window.open("https://tally.so/r/2ExbyA", "_blank")}
+                  >
+                    Tag spørgeskemaet
+                  </Button>
+                </div>
+              )}
               </div>
             </div>
           </div>
