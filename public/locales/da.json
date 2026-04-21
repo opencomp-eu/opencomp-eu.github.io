@@ -26,7 +26,7 @@
     "subtitle": "Tilgang",
     "compass":{
       "title": "Hvad er næste skridt",
-      "description":"Morpheus er kun første skridt. OpenComp bygger en bredere roadmap for digital suverænitet med åbne sociale platforme, cloud-samarbejde og gennemsigtige, langsigtede partnerskaber."
+      "description":"Morpheus er det første skridt. OpenComp bygger en bredere roadmap for digital suverænitet med åbne sociale platforme, cloud-samarbejde og gennemsigtige, langsigtede partnerskaber."
     },
     "polaris":{
       "title": "Morpheus",
@@ -44,7 +44,7 @@
     "description": ""
   },
   "features": {
-    "title": "Hvorfor vælge",
+    "title": "Værdierne af",
     "subtitle": "OpenComp",
     "description": "Bygget med kerneværdier om suverænitet, privatliv og kontrol",
     "cards": {
@@ -122,6 +122,11 @@
     "description": "Udforsk vores platforme for at opnå digital suverænitet",
     "downloadFor": "Lær om",
     "preferDocker": "Se på GitHub"
+  },
+  "roadmap": {
+    "title": "Vores",
+    "subtitle": "Roadmap",
+    "description": "Udforsk vores planer for at opnå digital suverænitet"
   },
   "footer": {
     "description": "Hjælper europæiske organisationer med at opnå digital suverænitet gennem åbne, auditerbare og kontrollerbare systemer.",

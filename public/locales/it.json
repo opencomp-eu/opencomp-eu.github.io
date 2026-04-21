@@ -26,7 +26,7 @@
     "subtitle": "Approccio",
     "compass":{
       "title": "Cosa arriva dopo",
-      "description":"Morpheus è solo il primo passo. OpenComp sta costruendo una roadmap più ampia per la sovranità digitale: social decentralizzati, collaborazione cloud aperta e partnership trasparenti nel lungo periodo."
+      "description":"Morpheus è il primo passo. OpenComp sta costruendo una roadmap più ampia per la sovranità digitale: social decentralizzati, collaborazione cloud aperta e partnership trasparenti nel lungo periodo."
     },
     "polaris":{
       "title": "Morpheus",
@@ -44,7 +44,7 @@
     "description": ""
   },
   "features": {
-    "title": "Perché Scegliere",
+    "title": "I valori di",
     "subtitle": "OpenComp",
     "description": "Costruito con valori fondamentali di sovranità, privacy e controllo",
     "cards": {
@@ -122,6 +122,11 @@
     "description": "Esplora le nostre piattaforme per raggiungere la sovranità digitale",
     "downloadFor": "Scopri",
     "preferDocker": "Visualizza su GitHub"
+  },
+  "roadmap": {
+    "title": "Il Nostro",
+    "subtitle": "Roadmap",
+    "description": "Esplora i nostri piani per raggiungere la sovranità digitale"
   },
   "footer": {
     "description": "Aiutiamo le organizzazioni europee a raggiungere la sovranità digitale attraverso sistemi aperti, verificabili e controllabili.",
