@@ -25,7 +25,7 @@
     "title": "Vores",
     "subtitle": "Tilgang",
     "compass":{
-      "title": "Hvad er næste skridt",
+      "title": "Planer for fremtiden",
       "description":"Morpheus er det første skridt. OpenComp bygger en bredere roadmap for digital suverænitet med åbne sociale platforme, cloud-samarbejde og gennemsigtige, langsigtede partnerskaber."
     },
     "polaris":{
@@ -41,7 +41,17 @@
         "transparency": "Gennemsigtig drift og tydelig kundekommunikation hele vejen"
       }
     },
-    "description": ""
+    "description": "",
+    "morpheus": {
+      "title": "Tag kontrollen over din kommunikation",
+      "items": {
+        "switch": "Skift fra MS Teams og Zoom til den åbne Matrix-protokol",
+        "encryption": "End-to-end kryptering som standard",
+        "hosting": "Vælg din egen server eller hostingudbyder",
+        "migration": "Nem migrering fra eksisterende værktøjer"
+      },
+      "learnMore": "Lær mere"
+    }
   },
   "features": {
     "title": "Værdierne af",

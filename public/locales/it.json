@@ -41,7 +41,17 @@
         "transparency": "Operazioni trasparenti e comunicazione chiara con i clienti in ogni fase"
       }
     },
-    "description": ""
+    "description": "",
+    "morpheus": {
+      "title": "Riprendi il controllo delle tue comunicazioni",
+      "items": {
+        "switch": "Passa da MS Teams e Zoom al protocollo aperto Matrix",
+        "encryption": "Crittografia end-to-end attiva di default",
+        "hosting": "Scegli il tuo server o il tuo fornitore di hosting",
+        "migration": "Migrazione senza interruzioni dai tuoi strumenti attuali"
+      },
+      "learnMore": "Scopri di più"
+    }
   },
   "features": {
     "title": "I valori di",

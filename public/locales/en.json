@@ -41,7 +41,17 @@
         "transparency": "Transparent operations and customer communication at every step"
       }
     },
-    "description": ""
+    "description": "",
+    "morpheus": {
+      "title": "Take Control of Your Communication",
+      "items": {
+        "switch": "Switch from MS Teams and Zoom to the open Matrix protocol",
+        "encryption": "End-to-end encryption by default",
+        "hosting": "Choose your own server or hosting provider",
+        "migration": "Seamless migration from existing tools"
+      },
+      "learnMore": "Learn More"
+    }
   },
   "features": {
     "title": "Values of",

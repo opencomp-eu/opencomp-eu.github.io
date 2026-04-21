@@ -165,24 +165,24 @@ export default function Home() {
             </div>
             <div className="w-full lg:w-1/2">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Take Control of Your Communication
+                {t("diagram.morpheus.title")}
               </h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <Shield className="h-6 w-6 text-emerald-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 dark:text-gray-300">Switch from MS Teams and Zoom to the open Matrix protocol</span>
+                  <span className="text-gray-700 dark:text-gray-300">{t("diagram.morpheus.items.switch")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Lock className="h-6 w-6 text-emerald-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 dark:text-gray-300">End-to-end encryption by default</span>
+                  <span className="text-gray-700 dark:text-gray-300">{t("diagram.morpheus.items.encryption")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Globe className="h-6 w-6 text-emerald-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 dark:text-gray-300">Choose your own server or hosting provider</span>
+                  <span className="text-gray-700 dark:text-gray-300">{t("diagram.morpheus.items.hosting")}</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Users className="h-6 w-6 text-emerald-500 mt-1 flex-shrink-0" />
-                  <span className="text-gray-700 dark:text-gray-300">Seamless migration from existing tools</span>
+                  <span className="text-gray-700 dark:text-gray-300">{t("diagram.morpheus.items.migration")}</span>
                 </li>
               </ul>
               <div className="mt-6">
@@ -191,7 +191,7 @@ export default function Home() {
                   className="bg-emerald-500 hover:bg-emerald-600 text-white"
                   onClick={() => window.open("https://morpheus.opencomp.eu", "_blank")}
                 >
-                  Learn More
+                  {t("diagram.morpheus.learnMore")}
                 </Button>
               </div>
             </div>
