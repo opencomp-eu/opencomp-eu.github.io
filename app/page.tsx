@@ -189,7 +189,7 @@ export default function Home() {
                 <Button
                   size="lg"
                   className="bg-emerald-500 hover:bg-emerald-600 text-white"
-                  onClick={() => window.open("https://github.com/compass-ai-chat", "_blank")}
+                  onClick={() => window.open("https://morpheus.opencomp.eu", "_blank")}
                 >
                   Learn More
                 </Button>
